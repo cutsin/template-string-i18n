@@ -1,4 +1,4 @@
-# template-string-i18n
+# Template String I18n
 
 I18n using template strings.
 Inspired by [jaysoo.ca](https://jaysoo.ca/2014/03/20/i18n-with-es2015-template-literals/).
@@ -7,6 +7,8 @@ Inspired by [jaysoo.ca](https://jaysoo.ca/2014/03/20/i18n-with-es2015-template-l
 
 ```bash
 yarn add template-string-i18n --dev
+# or
+npm i template-string-i18n --save-dev
 ```
 
 ## Example
@@ -34,13 +36,21 @@ h1= __`Hi ${foo}`
 
 ## Usage
 
-### for Babel `.babelrc`
+### for Babel & Eslint
 
+__.babelrc__
 ```
 {
   ...
-  "plugins": ["transform-runtime", "template-string-i18n"],
+  "plugins": ["transform-runtime", "template-string-i18n"]
+}
+```
+
+__.eslintrc.js__
+```javascript
+module.exports = {
   ...
+  globals: { __: false }
 }
 ```
 

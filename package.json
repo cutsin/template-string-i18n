@@ -1,0 +1,25 @@
+{
+  "name": "template-string-i18n",
+  "version": "0.0.1",
+  "description": "Catch & translate characters using template strings.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cutsin/template-string-i18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "template-string",
+    "babel",
+    "pug"
+  ],
+  "author": "Cutsin <cutsin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cutsin/template-string-i18n/issues"
+  },
+  "homepage": "https://github.com/cutsin/template-string-i18n#readme",
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}

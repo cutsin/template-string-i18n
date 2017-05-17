@@ -4,7 +4,7 @@
   "description": "I18n using template strings.",
   "main": "index.js",
   "devDependencies": {
-    "chokidar": "^1.7.0",
+    "chokidar": "^1.7.0"
   },
   "repository": {
     "type": "git",

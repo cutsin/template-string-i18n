@@ -1,6 +1,6 @@
 {
   "name": "template-string-i18n",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "I18n using template strings.",
   "main": "index.js",
   "devDependencies": {

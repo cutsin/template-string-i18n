@@ -13,7 +13,7 @@ npm i template-string-i18n --save-dev
 
 ## Example
 
-__myproject/locales/en_US.json__
+__myproject/languages/en-US.json__
 
 ```json
 { "Hi {0}": "Hello {0}" }
@@ -35,6 +35,18 @@ h1= __`Hi ${foo}`
 ```
 
 ## Usage
+
+
+### Edit `package.json`
+```json
+{
+  "languages": [
+    "en-US",
+		"de-AT",
+    "zh-Hans-CN"
+  ]
+}
+```
 
 ### for Babel & Eslint
 
@@ -84,3 +96,8 @@ module.exports = {
   }
 }
 ```
+
+## How to build
+
+1. Put [build.sample.sh] to your repo's root path
+2. Run `sh build.sample.sh`

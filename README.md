@@ -42,7 +42,7 @@ h1= __`Hi ${foo}`
 {
   "languages": [
     "en-US",
-		"de-AT",
+    "de-AT",
     "zh-Hans-CN"
   ]
 }

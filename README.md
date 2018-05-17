@@ -99,5 +99,17 @@ module.exports = {
 
 ## How to build
 
-1. Put [build.sample.sh] to your repo's root path
-2. Run `sh build.sample.sh`
+1. Modify your webpack config
+  ```json
+  var lang = (process.env.LANG || process.env.LOCALE || '')
+  if (lang) lang = '/' + lang
+	module.exports = {
+	  /* ... */
+		build: {
+		  index: path.resolve(__dirname, '../dist' + lang + '/index.html'),
+		  assetsRoot: path.resolve(__dirname, '../dist' + lang)
+		}
+  }
+	```
+2. Put [build.sample.sh] to your repo's root path
+4. Run `sh build.sample.sh`

@@ -1,6 +1,6 @@
 # Template String I18n
 
-I18n using template strings.
+I18n using template strings with auto save/load translate documents.
 Inspired by [jaysoo.ca](https://jaysoo.ca/2014/03/20/i18n-with-es2015-template-literals/).
 
 ## Installation

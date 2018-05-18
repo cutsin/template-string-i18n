@@ -100,7 +100,7 @@ module.exports = {
 ## How to build
 
 1. Modify your webpack config
-  ```json
+  ```javascript
   var lang = (process.env.LANG || process.env.LOCALE || '')
   if (lang) lang = '/' + lang
 	module.exports = {

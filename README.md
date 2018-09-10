@@ -53,8 +53,10 @@ h1= __`Hi ${foo}`
 __.babelrc__
 ```
 {
-  ...
+	// Babel 6
   "plugins": ["transform-runtime", "template-string-i18n"]
+	// Babel 7
+  "plugins": ["@babel/transform-runtime", "module:template-string-i18n"]
 }
 ```
 

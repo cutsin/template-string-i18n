@@ -51,10 +51,12 @@ h1= __`Hi ${foo}`
 ### for Babel & Eslint
 
 __.babelrc__
-```
+```javascript
 {
-  ...
+  // Babel 6
   "plugins": ["transform-runtime", "template-string-i18n"]
+  // Babel 7
+  "plugins": ["@babel/transform-runtime", "module:template-string-i18n"]
 }
 ```
 

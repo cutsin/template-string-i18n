@@ -3,8 +3,8 @@
   "version": "0.2.0",
   "description": "I18n using template strings.",
   "main": "index.js",
-  "devDependencies": {
-    "chokidar": "^1.7.0"
+  "dependencies": {
+    "chokidar": "^2.0.4"
   },
   "repository": {
     "type": "git",

@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "description": "I18n using template strings.",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
     "chokidar": "^2.0.4"
   },
   "repository": {
